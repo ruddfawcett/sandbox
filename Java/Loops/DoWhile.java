@@ -8,11 +8,12 @@ public class DoWhile {
 
       if (i == 9) {
         maybe = false;
-        System.out.println("Done.");
       }
 
       i++;
     }
     while (maybe);
+    
+    System.out.println("Done.");
   }
 }

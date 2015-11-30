@@ -10,11 +10,12 @@ int main () {
 
     if (i == 9) {
       maybe = false;
-      printf("Done.");
     }
 
     i++;
   }
 
-   return 0;
+  printf("Done.");
+
+  return 0;
 }

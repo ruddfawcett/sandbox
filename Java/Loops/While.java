@@ -8,10 +8,11 @@ public class While {
 
       if (i == 9) {
         maybe = false;
-        System.out.println("Done.");
       }
 
       i++;
     }
+    
+    System.out.println("Done.");
   }
 }

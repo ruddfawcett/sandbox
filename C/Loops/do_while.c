@@ -10,12 +10,13 @@ int main() {
 
     if (i == 9) {
       maybe = false;
-      printf("Done.");
     }
 
     i++;
   }
   while (maybe == true);
+
+  printf("Done.");
 
   return 0;
 }
