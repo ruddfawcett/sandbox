@@ -8,8 +8,10 @@ public class ArrayType {
 
     int i = 0;
     for (char c : alphabet) {
-      strings[i++] = Character.toString(c);
+      strings[(strings.length - 1) - i++] = Character.toString(c);
     }
+
+    Arrays.sort(strings);
 
     System.out.println(Arrays.toString(strings));
   }
